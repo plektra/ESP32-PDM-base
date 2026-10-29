@@ -5496,6 +5496,641 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Device:R")
+		(at 45.72 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "213f7e75-0b05-486c-8052-60d148927feb")
+		(property "Reference" "R29"
+			(at 48.26 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 48.26 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 43.942 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9c0b05f-e1b4-4c73-b45f-f44515e5c10f")
+		)
+		(pin "2"
+			(uuid "b87719d4-6f45-4c2e-a424-1ce9b087187b")
+		)
+		(instances
+			(project "ESP32-PDM-BASE"
+				(path "/d0898527-243c-48e9-a217-df57be741056"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 45.72 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34554e77-4e25-4499-8468-275d70a2f700")
+		(property "Reference" "#PWR046"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 45.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 45.72 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1467dd0-398e-4a00-ba33-70bc491328ec")
+		)
+		(instances
+			(project "ESP32-PDM-BASE"
+				(path "/d0898527-243c-48e9-a217-df57be741056"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 45.72 49.53) (xy 45.72 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03e7e523-ac16-40d3-af32-cd026e502cd6")
+	)
+	(label "IO2"
+		(at 45.72 52.07 270)
+		(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		(uuid "83562468-b4ee-4884-b2f5-4630e9851edd")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 53.34 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04fccd38-2633-4665-a956-3d84e17cfaf5")
+		(property "Reference" "R30"
+			(at 55.88 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 55.88 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 51.562 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 53.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61ca2ea2-28cd-4a63-8654-1d0e878173f4")
+		)
+		(pin "2"
+			(uuid "5359bd76-b446-4126-89c4-54d758f23ef8")
+		)
+		(instances
+			(project "ESP32-PDM-BASE"
+				(path "/d0898527-243c-48e9-a217-df57be741056"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 53.34 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0144744-9130-4d59-91c6-69177e9be210")
+		(property "Reference" "#PWR047"
+			(at 53.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 53.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 53.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "715e8714-f11c-4f04-93d4-82f9cca92f51")
+		)
+		(instances
+			(project "ESP32-PDM-BASE"
+				(path "/d0898527-243c-48e9-a217-df57be741056"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 53.34 49.53) (xy 53.34 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73643bd2-9106-438b-9dc3-f084b6b1eb21")
+	)
+	(label "IO3"
+		(at 53.34 52.07 270)
+		(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		(uuid "92eb304b-290e-44d9-99a0-e84b0ebedab1")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 60.96 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19ef0023-dfa6-4ed4-a82d-f6bd9212fdd5")
+		(property "Reference" "R31"
+			(at 63.5 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 63.5 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 59.182 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dacc87dd-85d2-447c-8f7b-cc683be501aa")
+		)
+		(pin "2"
+			(uuid "28f583ec-2d6c-4f3b-9598-37ef90072018")
+		)
+		(instances
+			(project "ESP32-PDM-BASE"
+				(path "/d0898527-243c-48e9-a217-df57be741056"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 60.96 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dad0014-d25b-4dd5-83a6-335c09e0aadc")
+		(property "Reference" "#PWR048"
+			(at 60.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 60.96 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 60.96 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f88bbcf2-344c-420b-a20b-e8f23a334523")
+		)
+		(instances
+			(project "ESP32-PDM-BASE"
+				(path "/d0898527-243c-48e9-a217-df57be741056"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 60.96 49.53) (xy 60.96 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c3165a-e473-4fe8-a814-99ceae820ff6")
+	)
+	(label "IO4"
+		(at 60.96 52.07 270)
+		(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		(uuid "e79e5c12-8ffb-47f0-8b8c-08d66d4b8ed2")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 68.58 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19fa0f0d-afc7-4296-ad16-7978bd914bec")
+		(property "Reference" "R32"
+			(at 71.12 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 71.12 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 66.802 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1d6071f-cba9-4073-b2cb-8095e80f939b")
+		)
+		(pin "2"
+			(uuid "8c4d1273-39d8-4801-845d-91130b4582a4")
+		)
+		(instances
+			(project "ESP32-PDM-BASE"
+				(path "/d0898527-243c-48e9-a217-df57be741056"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 68.58 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e80aa198-6b17-4d13-a3ea-5b57ef5a5f5f")
+		(property "Reference" "#PWR049"
+			(at 68.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 68.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 68.58 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8eaaa662-29c7-49b8-8838-cab42681acb6")
+		)
+		(instances
+			(project "ESP32-PDM-BASE"
+				(path "/d0898527-243c-48e9-a217-df57be741056"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 68.58 49.53) (xy 68.58 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae7e718a-7662-41d4-992f-461adbb57b3e")
+	)
+	(label "IO5"
+		(at 68.58 52.07 270)
+		(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		(uuid "0a62289f-382e-4e67-b325-7c5801258d8e")
+	)
+	(text "Pull-ups for the open-drain ST (fault status) outputs of the\nTPS1H100-Q1 high-side switches on the output module"
+		(exclude_from_sim no)
+		(at 40.64 30.48 0)
+		(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		(uuid "b99545f9-29e3-4a58-8c26-13e1624f0514")
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

@@ -342,7 +342,7 @@
 			(pin no_connect line
 				(at -7.62 -5.08 0)
 				(length 2.54) hide
-				(name ""
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -360,7 +360,7 @@
 			(pin no_connect line
 				(at -7.62 -5.08 0)
 				(length 2.54) hide
-				(name ""
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
