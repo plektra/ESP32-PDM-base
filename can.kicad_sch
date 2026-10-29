@@ -2225,7 +2225,6 @@
 	(hierarchical_label "TXD"
 		(shape input)
 		(at 123.19 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2237,7 +2236,6 @@
 	(hierarchical_label "RXD"
 		(shape output)
 		(at 123.19 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -1012,6 +1012,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "RF_Module:ESP32-S3-MINI-1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2926,7 +3008,6 @@
 	)
 	(label "IO7"
 		(at 88.9 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2937,7 +3018,6 @@
 	)
 	(label "IO4"
 		(at 104.14 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2948,7 +3028,6 @@
 	)
 	(label "IO6"
 		(at 120.65 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2959,7 +3038,6 @@
 	)
 	(label "SW_IN2"
 		(at 71.12 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2970,7 +3048,6 @@
 	)
 	(label "IO8"
 		(at 88.9 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2981,7 +3058,6 @@
 	)
 	(label "USB_TXD"
 		(at 154.94 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2992,7 +3068,6 @@
 	)
 	(label "IO17"
 		(at 120.65 121.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3003,7 +3078,6 @@
 	)
 	(label "IO12"
 		(at 120.65 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3014,7 +3088,6 @@
 	)
 	(label "IO13"
 		(at 33.02 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3025,7 +3098,6 @@
 	)
 	(label "IO13"
 		(at 120.65 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3036,7 +3108,6 @@
 	)
 	(label "IO9"
 		(at 120.65 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3047,7 +3118,6 @@
 	)
 	(label "EN"
 		(at 212.09 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3058,7 +3128,6 @@
 	)
 	(label "IO18"
 		(at 184.15 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3069,7 +3138,6 @@
 	)
 	(label "IO9"
 		(at 88.9 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3080,7 +3148,6 @@
 	)
 	(label "IO2"
 		(at 120.65 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3091,7 +3158,6 @@
 	)
 	(label "IO5"
 		(at 120.65 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3102,7 +3168,6 @@
 	)
 	(label "IO7"
 		(at 120.65 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3113,7 +3178,6 @@
 	)
 	(label "IO18"
 		(at 120.65 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3124,7 +3188,6 @@
 	)
 	(label "SW_IN4"
 		(at 116.84 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3135,7 +3198,6 @@
 	)
 	(label "SW_IN1"
 		(at 71.12 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3146,7 +3208,6 @@
 	)
 	(label "IO10"
 		(at 120.65 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3157,7 +3218,6 @@
 	)
 	(label "SW_IN4"
 		(at 71.12 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3168,7 +3228,6 @@
 	)
 	(label "IO6"
 		(at 88.9 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3179,7 +3238,6 @@
 	)
 	(label "IO8"
 		(at 120.65 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3190,7 +3248,6 @@
 	)
 	(label "SW_IN3"
 		(at 104.14 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3201,7 +3258,6 @@
 	)
 	(label "IO5"
 		(at 116.84 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3212,7 +3268,6 @@
 	)
 	(label "IO10"
 		(at 33.02 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3223,7 +3278,6 @@
 	)
 	(label "SW_IN2"
 		(at 104.14 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3234,7 +3288,6 @@
 	)
 	(label "IO12"
 		(at 33.02 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3245,7 +3298,6 @@
 	)
 	(label "IO3"
 		(at 120.65 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3256,7 +3308,6 @@
 	)
 	(label "IO17"
 		(at 184.15 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3267,7 +3318,6 @@
 	)
 	(label "IO0"
 		(at 212.09 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3278,7 +3328,6 @@
 	)
 	(label "USB_RXD"
 		(at 154.94 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3289,7 +3338,6 @@
 	)
 	(label "IO11"
 		(at 33.02 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3300,7 +3348,6 @@
 	)
 	(label "USB_TXD"
 		(at 212.09 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3311,7 +3358,6 @@
 	)
 	(label "EN"
 		(at 120.65 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3322,7 +3368,6 @@
 	)
 	(label "IO3"
 		(at 104.14 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3333,7 +3378,6 @@
 	)
 	(label "USB_RXD"
 		(at 212.09 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3344,7 +3388,6 @@
 	)
 	(label "IO2"
 		(at 104.14 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3355,7 +3398,6 @@
 	)
 	(label "IO0"
 		(at 120.65 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3366,7 +3408,6 @@
 	)
 	(label "SW_IN1"
 		(at 104.14 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3377,7 +3418,6 @@
 	)
 	(label "IO4"
 		(at 120.65 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3388,7 +3428,6 @@
 	)
 	(label "IO11"
 		(at 120.65 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3399,7 +3438,6 @@
 	)
 	(label "SW_IN3"
 		(at 71.12 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4519,6 +4557,134 @@
 			(project "ESP32-PDM-BASE"
 				(path "/d0898527-243c-48e9-a217-df57be741056"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 186.69 134.62 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99db1f99-34e8-4aac-b662-4deb767e1121")
+		(property "Reference" "H1"
+			(at 189.23 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 189.23 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 186.69 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/d0898527-243c-48e9-a217-df57be741056"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 186.69 140.97 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c3a1597-8db9-4eff-a16e-8f0b611ca22d")
+		(property "Reference" "H2"
+			(at 189.23 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 189.23 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 186.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/d0898527-243c-48e9-a217-df57be741056"
+					(reference "H2")
 					(unit 1)
 				)
 			)
