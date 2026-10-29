@@ -2593,6 +2593,126 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 1.27)
+						(xy -1.016 1.905)
+						(xy 0 2.54)
+						(xy 1.016 1.905)
+						(xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 82.55 121.92)
@@ -3030,17 +3150,6 @@
 			(type default)
 		)
 		(uuid "ea351266-b4ed-47e2-bc97-4936b87d3e50")
-	)
-	(wire
-		(pts
-			(xy 120.65 123.19)
-			(xy 120.65 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb5de48d-34e1-4715-b795-b9dabe1b2673")
 	)
 	(wire
 		(pts
@@ -6455,5 +6564,366 @@
 			(justify left)
 		)
 		(uuid "0b7ff488-39f3-4054-8478-434d061199cb")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 88.9 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dd394a2-e7a0-4f3f-bb8f-f54f58028b84")
+		(property "Reference" "#PWR051"
+			(at 91.44 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 91.44 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 88.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7064473-f91b-4af5-b87e-dc62567f82fe")
+		)
+		(instances
+			(project "ESP32-PDM-BASE"
+				(path "/d0898527-243c-48e9-a217-df57be741056"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 88.9 38.1)
+			(xy 88.9 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "132b336f-e3b5-4051-8583-f42c4de50c8b")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 88.9 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "705c7c24-a214-4910-ba77-ae948b2c106d")
+		(property "Reference" "#FLG04"
+			(at 91.44 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 91.44 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 88.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9be2aa6a-3795-441b-a030-02c5aaf4d2ba")
+		)
+		(instances
+			(project "ESP32-PDM-BASE"
+				(path "/d0898527-243c-48e9-a217-df57be741056"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8755598c-9277-40f7-bcbc-c62939ea8ff9")
+		(property "Reference" "#PWR052"
+			(at 99.06 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91ea313e-c343-47c7-9aaa-630f1ccb13d5")
+		)
+		(instances
+			(project "ESP32-PDM-BASE"
+				(path "/d0898527-243c-48e9-a217-df57be741056"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 96.52 38.1)
+			(xy 96.52 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e4168c2-d435-4c52-9787-0248cbe1092b")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 96.52 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f453c9e-f726-4903-8728-1f9e9848b7fb")
+		(property "Reference" "#FLG05"
+			(at 99.06 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 99.06 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 96.52 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b28f3f87-457d-471d-871a-7400e1f60aa6")
+		)
+		(instances
+			(project "ESP32-PDM-BASE"
+				(path "/d0898527-243c-48e9-a217-df57be741056"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 151.13 88.9)
+		(uuid "416e5ea9-81a2-44c3-9522-835c68d91109")
+	)
+	(no_connect
+		(at 151.13 91.44)
+		(uuid "8824c330-9861-4f5c-a3a3-ea1a53df1930")
+	)
+	(no_connect
+		(at 151.13 93.98)
+		(uuid "11ddfbc5-f4e4-4b3a-85e6-2342f9db2ea2")
+	)
+	(no_connect
+		(at 151.13 96.52)
+		(uuid "4bf7aff4-1e63-4272-a624-57e025b611ac")
+	)
+	(no_connect
+		(at 151.13 99.06)
+		(uuid "bced4d94-96f9-42aa-a899-0377308d5d1c")
+	)
+	(no_connect
+		(at 151.13 101.6)
+		(uuid "fa0d8d43-b3f3-4b56-a2ff-c271a81c9d4d")
+	)
+	(no_connect
+		(at 151.13 104.14)
+		(uuid "59c3c495-199e-492b-935f-e207fe01ff56")
+	)
+	(no_connect
+		(at 151.13 106.68)
+		(uuid "0c5623a7-fc97-43ba-999b-a29097aedcd7")
+	)
+	(no_connect
+		(at 151.13 109.22)
+		(uuid "e7f271d3-ae81-4499-b4d7-248ebb665d9c")
+	)
+	(no_connect
+		(at 151.13 111.76)
+		(uuid "b0d7926c-f10e-4bc6-8d4e-457169ea79a2")
+	)
+	(no_connect
+		(at 151.13 114.3)
+		(uuid "deec58a2-a40d-4563-81ba-d1e1ece9ed16")
+	)
+	(no_connect
+		(at 151.13 116.84)
+		(uuid "4c746a16-71d7-4309-a578-a15a27a2dce6")
+	)
+	(no_connect
+		(at 151.13 119.38)
+		(uuid "728a3543-3032-479e-aba6-15bb2257d1f7")
+	)
+	(no_connect
+		(at 151.13 121.92)
+		(uuid "a2613644-4076-4783-a9d6-da7ca472d126")
+	)
+	(no_connect
+		(at 151.13 124.46)
+		(uuid "36018629-2202-490f-b1ff-f284c4281cdf")
+	)
+	(text "Spare GPIO: IO26, IO33-IO42, IO45-IO48 (no-connect flags; IO45/IO46 are strapping pins)"
+		(exclude_from_sim no)
+		(at 154.94 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68f72a60-05c9-42b1-a5ae-0eec0a3dc88b")
 	)
 )

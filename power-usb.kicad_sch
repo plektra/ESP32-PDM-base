@@ -1612,7 +1612,7 @@
 				)
 			)
 			(symbol "PLMR51610XDBVR_0_1"
-				(pin unspecified line
+				(pin passive line
 					(at 33.02 0 180)
 					(length 5.08)
 					(name "CB"
@@ -1648,7 +1648,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 33.02 -10.16 180)
 					(length 5.08)
 					(name "FB"
@@ -1702,7 +1702,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 33.02 -5.08 180)
 					(length 5.08)
 					(name "SW"
@@ -3333,6 +3333,126 @@
 					)
 				)
 			)
+		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 1.27)
+						(xy -1.016 1.905)
+						(xy 0 2.54)
+						(xy 1.016 1.905)
+						(xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -5747,7 +5867,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GG040205170N2P"
+		(property "Value" "PESD0402V05"
 			(at 45.72 126.746 90)
 			(effects
 				(font
@@ -5775,6 +5895,15 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 64.77 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19626254"
 			(at 64.77 124.46 0)
 			(effects
 				(font
@@ -5817,7 +5946,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GG040205170N2P"
+		(property "Value" "PESD0402V05"
 			(at 90.17 80.0099 90)
 			(effects
 				(font
@@ -5845,6 +5974,15 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 87.63 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19626254"
 			(at 87.63 78.74 0)
 			(effects
 				(font
@@ -5887,7 +6025,7 @@
 				)
 			)
 		)
-		(property "Value" "0ZCK0050FF2E"
+		(property "Value" "SMD0805B050TF"
 			(at 64.77 68.58 90)
 			(effects
 				(font
@@ -5895,7 +6033,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32-PDM-BASE:0ZCK_BEL"
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
 			(at 69.85 71.12 0)
 			(effects
 				(font
@@ -5915,6 +6053,15 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 64.77 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C269104"
 			(at 64.77 72.39 0)
 			(effects
 				(font
@@ -5998,72 +6145,6 @@
 			(project "ESP32-PDM-BASE"
 				(path "/d0898527-243c-48e9-a217-df57be741056/4e2a30d7-59a0-4ccb-98ec-adc6bcb9c0a2"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 106.68 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6cdb2b4a-37f4-4e96-b89a-840835ace51e")
-		(property "Reference" "#PWR011"
-			(at 106.68 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 106.68 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1638d188-c339-47e6-93e7-5c47199182f0")
-		)
-		(instances
-			(project "ESP32-PDM-BASE"
-				(path "/d0898527-243c-48e9-a217-df57be741056/4e2a30d7-59a0-4ccb-98ec-adc6bcb9c0a2"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7003,7 +7084,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GG040205170N2P"
+		(property "Value" "PESD0402V05"
 			(at 72.39 125.7299 90)
 			(effects
 				(font
@@ -7031,6 +7112,15 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 69.85 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19626254"
 			(at 69.85 124.46 0)
 			(effects
 				(font
@@ -7150,7 +7240,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMAJ33CA"
+		(property "Value" "SMAJ30CA"
 			(at 91.44 45.7199 90)
 			(effects
 				(font
@@ -7186,7 +7276,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C19077549"
+		(property "LCSC" "C19077548"
 			(at 88.9 44.45 0)
 			(effects
 				(font
@@ -7941,5 +8031,139 @@
 			(justify left bottom)
 		)
 		(uuid "c4ddd457-d38d-4742-8909-193d46df0cce")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 22.86 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d739b49-e3b4-4a28-bc5d-f84aa56db1fc")
+		(property "Reference" "#FLG01"
+			(at 25.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 25.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 22.86 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b04ac40-631d-4147-8ff0-281267af99fc")
+		)
+		(instances
+			(project "ESP32-PDM-BASE"
+				(path "/d0898527-243c-48e9-a217-df57be741056/4e2a30d7-59a0-4ccb-98ec-adc6bcb9c0a2"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 163.83 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5da081b8-5364-4309-ac4a-33bbf4ed488f")
+		(property "Reference" "#FLG02"
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 166.37 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 163.83 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28c7a400-8d7e-4fc0-a42e-69f2fc10358f")
+		)
+		(instances
+			(project "ESP32-PDM-BASE"
+				(path "/d0898527-243c-48e9-a217-df57be741056/4e2a30d7-59a0-4ccb-98ec-adc6bcb9c0a2"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
 	)
 )

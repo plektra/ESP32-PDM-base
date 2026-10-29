@@ -1548,7 +1548,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 57.15)
+			(xy 128.27 57.15)
 			(xy 139.7 57.15)
 		)
 		(stroke
@@ -1680,7 +1680,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 25.4)
+			(xy 128.27 25.4)
 			(xy 139.7 25.4)
 		)
 		(stroke
@@ -2406,7 +2406,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 121.92)
+			(xy 128.27 121.92)
 			(xy 139.7 121.92)
 		)
 		(stroke
@@ -2417,7 +2417,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 88.9)
+			(xy 128.27 88.9)
 			(xy 139.7 88.9)
 		)
 		(stroke
@@ -2730,7 +2730,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "4.7k"
 			(at 66.04 74.93 90)
 			(effects
 				(font
@@ -2738,7 +2738,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 66.04 80.518 90)
 			(effects
 				(font
@@ -2757,6 +2757,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 66.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17936"
 			(at 66.04 78.74 0)
 			(effects
 				(font
@@ -3272,7 +3281,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "4.7k"
 			(at 66.04 88.9 90)
 			(effects
 				(font
@@ -3280,7 +3289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 66.04 94.488 90)
 			(effects
 				(font
@@ -3299,6 +3308,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 66.04 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17936"
 			(at 66.04 92.71 0)
 			(effects
 				(font
@@ -4025,7 +4043,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "4.7k"
 			(at 66.04 102.87 90)
 			(effects
 				(font
@@ -4033,7 +4051,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 66.04 108.458 90)
 			(effects
 				(font
@@ -4052,6 +4070,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 66.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17936"
 			(at 66.04 106.68 0)
 			(effects
 				(font
@@ -4818,7 +4845,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "4.7k"
 			(at 66.04 116.84 90)
 			(effects
 				(font
@@ -4826,7 +4853,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 66.04 122.428 90)
 			(effects
 				(font
@@ -4845,6 +4872,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 66.04 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17936"
 			(at 66.04 120.65 0)
 			(effects
 				(font
