@@ -339,9 +339,9 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin no_connect line hide
 				(at -7.62 -5.08 0)
-				(length 2.54) hide
+				(length 2.54)
 				(name "NC"
 					(effects
 						(font
@@ -357,9 +357,9 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin no_connect line hide
 				(at -7.62 -5.08 0)
-				(length 2.54) hide
+				(length 2.54)
 				(name "NC"
 					(effects
 						(font
@@ -888,61 +888,7 @@
 						)
 					)
 				)
-				(number "S1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -17.78 -10.16 0)
-				(length 5.08)
-				(name "SHIELD"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "S2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -17.78 -10.16 0)
-				(length 5.08)
-				(name "SHIELD"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "S3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -17.78 -10.16 0)
-				(length 5.08)
-				(name "SHIELD"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "S4"
+				(number "SH"
 					(effects
 						(font
 							(size 1.016 1.016)
