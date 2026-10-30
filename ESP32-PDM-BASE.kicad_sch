@@ -5694,7 +5694,7 @@
 		)
 		(uuid "7ba31040-fdca-43ae-9a7d-bf3798d4f53e")
 	)
-	(label "SW1"
+	(label "SW1_IO"
 		(at 120.65 114.3 180)
 		(effects
 			(font
@@ -5704,7 +5704,7 @@
 		)
 		(uuid "7fa4ccfa-ec71-4c09-9a76-db6646528751")
 	)
-	(label "SW2"
+	(label "SW2_IO"
 		(at 120.65 116.84 180)
 		(effects
 			(font
@@ -5714,7 +5714,7 @@
 		)
 		(uuid "28577300-cddd-4ee3-9910-4dfe78a79926")
 	)
-	(label "SW3"
+	(label "SW3_IO"
 		(at 120.65 119.38 180)
 		(effects
 			(font
@@ -5724,7 +5724,7 @@
 		)
 		(uuid "e11b6893-18bb-4487-90d7-ecf7229f45aa")
 	)
-	(label "SW4"
+	(label "SW4_IO"
 		(at 151.13 86.36 0)
 		(effects
 			(font
@@ -6020,73 +6020,6 @@
 		(uuid "cc436916-7bb8-4fc4-89b3-345a41bcdbd1")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 53.34 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df1e3f9f-0a57-4de5-a79b-a00da1e53228")
-		(property "Reference" "#PWR047"
-			(at 55.88 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.88 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb1b58cd-6da7-46e4-b539-6d0a1b8f0dd6")
-		)
-		(instances
-			(project "ESP32-PDM-BASE"
-				(path "/d0898527-243c-48e9-a217-df57be741056"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 60.96 45.72 0)
 		(unit 1)
@@ -6174,73 +6107,6 @@
 			(justify left bottom)
 		)
 		(uuid "4bc001c0-a7f8-465c-aa1c-51206c94b579")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 60.96 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af945560-3328-465b-b53b-79c201f74c82")
-		(property "Reference" "#PWR048"
-			(at 63.5 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 63.5 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03042669-649e-4baf-aa10-bf2d1a47e85e")
-		)
-		(instances
-			(project "ESP32-PDM-BASE"
-				(path "/d0898527-243c-48e9-a217-df57be741056"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -6332,73 +6198,6 @@
 		(uuid "c948419b-96b7-4fbf-ac19-25d7c7042d2f")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 68.58 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d201acf-00bd-4a09-837a-9b6e5d1f057e")
-		(property "Reference" "#PWR049"
-			(at 71.12 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 71.12 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "283af5a9-b3d9-4103-83e8-84e3b0f17449")
-		)
-		(instances
-			(project "ESP32-PDM-BASE"
-				(path "/d0898527-243c-48e9-a217-df57be741056"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 76.2 45.72 0)
 		(unit 1)
@@ -6487,74 +6286,7 @@
 		)
 		(uuid "9d14c07e-790f-4cb0-bcbf-d95278d2c733")
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 76.2 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02d354e6-3959-4aa5-9fb3-eaf87e5154b3")
-		(property "Reference" "#PWR050"
-			(at 78.74 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 78.74 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5cdecc9e-c375-445d-aabb-0daecd4e5dc3")
-		)
-		(instances
-			(project "ESP32-PDM-BASE"
-				(path "/d0898527-243c-48e9-a217-df57be741056"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(text "MOD_ID: module pulls header pin 12 down (0 V = 4x4 rev 1); read on IO1 (ADC).\nSW1-SW4: physical switch state for the firmware (opto outputs, 10k pull-downs)."
+	(text "MOD_ID: module pulls header pin 12 down (0 V = 4x4 rev 1); read on IO1 (ADC).\nSW1-SW4: switch state from the input dividers, 10k series to IO14/IO15/IO16/IO21."
 		(exclude_from_sim no)
 		(at 40.64 30.48 0)
 		(effects
@@ -6925,5 +6657,45 @@
 			(justify left)
 		)
 		(uuid "68f72a60-05c9-42b1-a5ae-0eec0a3dc88b")
+	)
+	(label "SW1_IO"
+		(at 53.34 49.53 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cc7a06b1-8263-4a12-a971-9da5b6a51412")
+	)
+	(label "SW2_IO"
+		(at 60.96 49.53 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "91e07565-3237-46a8-9d57-d81bba2b07ec")
+	)
+	(label "SW3_IO"
+		(at 68.58 49.53 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "acbff1df-f62e-4428-b363-ca923fd0c746")
+	)
+	(label "SW4_IO"
+		(at 76.2 49.53 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f212d57-2aee-4399-bf6c-18ef3900dddf")
 	)
 )
